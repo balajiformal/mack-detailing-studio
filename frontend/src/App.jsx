@@ -7,15 +7,15 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 // import Reviews from "./pages/Reviews";
 // import Contact from "./pages/Contact";
 
-// import Navbar from "./components/Navbar";
-import Footer from "./components/Footer";
+import Navbar from "./components/Navbar";
+//import Footer from "./components/Footer";
 
 function App() {
     return (
         <BrowserRouter>
-            {/* <Navbar />
+            <Navbar />
 
-            <Routes>
+            {/* <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/about" element={<About />} />
                 <Route path="/services" element={<Services />} />
@@ -24,7 +24,7 @@ function App() {
                 <Route path="/contact" element={<Contact />} />
             </Routes> */}
 
-            <Footer />
+            {/* <Footer /> */}
         </BrowserRouter>
     );
 }
